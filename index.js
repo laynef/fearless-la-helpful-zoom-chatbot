@@ -46,7 +46,7 @@ app.get("/documentation", (req, res) => {
 });
 
 app.get("/zoomverify/verifyzoom.html", (req, res) => {
-  res.send(process.env.zoom_verification_code);
+  res.send(process.env.zoom_verification_token);
 });
 
 app.post("/unsplash", (req, res) => {
