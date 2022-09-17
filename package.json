@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "format": "npx prettier --write ."
   },
   "repository": {
@@ -23,6 +24,7 @@
     "prettier": "^2.7.1"
   },
   "dependencies": {
+    "pg": "^8.8.0",
     "request": "^2.88.2"
   }
 }
