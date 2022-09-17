@@ -11,6 +11,10 @@ app.get("/", (req, res) => {
   res.send("Welcome to the Unsplash Chatbot for Zoom!");
 });
 
+app.get("/configure", (req, res) => {
+  res.send("Welcome to the Unsplash Chatbot for Zoom!");
+});
+
 app.get("/authorize", (req, res) => {
   res.redirect(
     "https://zoom.us/launch/chat?jid=robot_" + process.env.zoom_bot_jid
