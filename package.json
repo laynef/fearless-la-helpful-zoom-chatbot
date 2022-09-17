@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "format": "npx prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/laynef/fearless-la-helpful-zoom-chatbot/issues"
   },
-  "homepage": "https://github.com/laynef/fearless-la-helpful-zoom-chatbot#readme"
+  "homepage": "https://github.com/laynef/fearless-la-helpful-zoom-chatbot#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1"
+  }
 }
