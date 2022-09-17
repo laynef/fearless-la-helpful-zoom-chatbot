@@ -91,3 +91,5 @@ const PORT = process.env.PORT || 8080;
 app.listen(PORT, HOSTNAME, () =>
   console.log(`Listening to http://${HOSTNAME}:${PORT}`)
 );
+
+module.exports = app;
